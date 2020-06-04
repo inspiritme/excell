@@ -2,5 +2,13 @@
 @import "mixins";
 
 .excel__header{
-    
+    background-color: red;
+
+
+    .input{
+        color: $color1;
+    }
+    &:hover{
+        
+    }
 }
