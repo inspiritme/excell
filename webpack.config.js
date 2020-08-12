@@ -1,7 +1,11 @@
 const path = require('path');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const HTMLWebpackPlugin = require('html-webpack-plugin')
+<<<<<<< HEAD
 const CopyPlugin = require('copy-webpack-plugin')
+=======
+// const CopyPlugin = require('copy-webpack-plugin')
+>>>>>>> 0fb64cd7cc9831050368f95ce513d253d3e6695c
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const isProd = process.env.NODE_ENV === 'production';
@@ -31,7 +35,11 @@ const jsLoaders = () => {
 module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
+<<<<<<< HEAD
     entry: ['@babel/polyfill','./index.js'],
+=======
+    entry: ['@babel/polyfill', './index.js'],
+>>>>>>> 0fb64cd7cc9831050368f95ce513d253d3e6695c
     output: {
         filename: filename('js'),
         path: path.resolve(__dirname, 'dist')

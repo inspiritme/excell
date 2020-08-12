@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import {Excel} from '@/components/excel/Excel'
 import {Header} from '@/components/header/Header'
@@ -14,3 +15,8 @@ import './scss/index.scss'
  });
 
 excel.render();
+=======
+import './module'
+import './scss/index.scss'
+console.log('Working')
+>>>>>>> 0fb64cd7cc9831050368f95ce513d253d3e6695c

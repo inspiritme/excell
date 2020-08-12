@@ -5,6 +5,10 @@
 @import "toolbar";
 @import "formula";
 @import "table";
+<<<<<<< HEAD
+=======
+@import "dashboard";
+>>>>>>> 0fb64cd7cc9831050368f95ce513d253d3e6695c
 
 *{
     margin: 0;
@@ -18,6 +22,16 @@ body{
     background-color: #fff;
 }
 
+<<<<<<< HEAD
 // .excel{
     
 // }
+=======
+.excel{
+    position: relative;
+    color:#888;
+    height: 100%;
+    max-width: 100%;
+    font-size: .8rem;
+}
+>>>>>>> 0fb64cd7cc9831050368f95ce513d253d3e6695c

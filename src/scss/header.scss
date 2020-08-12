@@ -3,4 +3,47 @@
 
 .excel__header{
     
+<<<<<<< HEAD
+=======
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height:$header-height;
+    padding:8px 4px 0;
+    display: flex;
+    justify-content: space-between;
+
+    border:1px solid #000;
+
+    & .input{
+        margin: 0;
+        padding: 2px 7px;
+        color: #000;
+        border:1px solid transparent;
+        border-radius: 2px;
+        height: 20px;
+        font: 18px;
+        cursor: pointer;
+        outline:none;
+        line-height: 22px;
+
+        &:hover{
+            border-color: $border-color;
+        }
+        &:focus{
+            border:2px solid #1a73e8
+        }
+    }
+
+    .header-icons{
+        
+    }
+
+    .button{
+        @include button(red);
+    }
+
+
+>>>>>>> 0fb64cd7cc9831050368f95ce513d253d3e6695c
 }
