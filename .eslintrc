@@ -11,7 +11,14 @@
          "arrow-parens":"off",
          "indent":"off",
          "comma-dangle":"off",
-         "require-jsdoc":"off"
+         "require-jsdoc":"off",
+         "padded-blocks":"off",
+         "space-before-blocks":"off",
+         "no-trailing-spaces":"off",
+         "quotes":"off",
+         "object-curly-spacing":"off",
+         "no-unused-vars":"off",
+         "comma-spacing":"off"
 
     },
     "extends": ["eslint:recommended", "google"]
